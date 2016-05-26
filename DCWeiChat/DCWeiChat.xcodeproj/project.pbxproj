@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F486DDF1CF6A99E0023A086 /* MessageDate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F486DDE1CF6A99E0023A086 /* MessageDate.plist */; };
+		0F486DE11CF6A9A40023A086 /* FriendCircleDate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F486DE01CF6A9A40023A086 /* FriendCircleDate.plist */; };
+		0F486DE31CF6A9A70023A086 /* ContactDetailDate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F486DE21CF6A9A70023A086 /* ContactDetailDate.plist */; };
 		856B4C9C1CF69098002D82C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B4C9B1CF69098002D82C1 /* main.m */; };
 		856B4CA51CF69098002D82C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856B4CA31CF69098002D82C1 /* Main.storyboard */; };
 		856B4CA71CF69098002D82C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856B4CA61CF69098002D82C1 /* Assets.xcassets */; };
@@ -117,6 +120,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F486DDE1CF6A99E0023A086 /* MessageDate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MessageDate.plist; sourceTree = "<group>"; };
+		0F486DE01CF6A9A40023A086 /* FriendCircleDate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FriendCircleDate.plist; sourceTree = "<group>"; };
+		0F486DE21CF6A9A70023A086 /* ContactDetailDate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactDetailDate.plist; sourceTree = "<group>"; };
 		3090D0A8753793E217049AB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		37908A8B5899C3441234CA88 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		856B4C971CF69098002D82C1 /* DCWeiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCWeiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -322,6 +328,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F486DD71CF6A8ED0023A086 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				0F486DE21CF6A9A70023A086 /* ContactDetailDate.plist */,
+				0F486DE01CF6A9A40023A086 /* FriendCircleDate.plist */,
+				0F486DDE1CF6A99E0023A086 /* MessageDate.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
 		2CD12975C93A17524F889BBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +380,7 @@
 		856B4C991CF69098002D82C1 /* DCWeiChat */ = {
 			isa = PBXGroup;
 			children = (
+				0F486DD71CF6A8ED0023A086 /* Plist */,
 				856B4E861CF69FD2002D82C1 /* Classes */,
 				856B4CA31CF69098002D82C1 /* Main.storyboard */,
 				856B4CA61CF69098002D82C1 /* Assets.xcassets */,
@@ -974,6 +991,9 @@
 				856B4CA71CF69098002D82C1 /* Assets.xcassets in Resources */,
 				856B4F261CF69FD2002D82C1 /* DCChatViewAdditonViewCell.xib in Resources */,
 				856B4CA51CF69098002D82C1 /* Main.storyboard in Resources */,
+				0F486DE11CF6A9A40023A086 /* FriendCircleDate.plist in Resources */,
+				0F486DDF1CF6A99E0023A086 /* MessageDate.plist in Resources */,
+				0F486DE31CF6A9A70023A086 /* ContactDetailDate.plist in Resources */,
 				856B4F281CF69FD2002D82C1 /* DCChatViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
