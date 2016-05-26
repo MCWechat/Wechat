@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+pod 'MJExtension', '~> 2.5.10'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'FMDB', '~> 2.6'
+pod 'MJPhotoBrowser', '~> 1.0.2'
+pod 'ZBarSDK'
+pod 'SVProgressHUD'
+pod 'YLGIFImage'
+
